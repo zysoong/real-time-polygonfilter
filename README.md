@@ -4,8 +4,8 @@ to generates polygons from your web camera in real time.
 
 ![example](https://github.com/zysoong/real-time-polygonfilter/blob/master/example.gif)
 
-Comming features:
-Accept parameters from command line (work on going)
-More edge filters (work on going)
-Render triangles with OpenGL (target)
+Comming features:\
+Accept parameters from command line (work on going)\
+More edge filters (work on going)\
+Render triangles with OpenGL (target)\
 

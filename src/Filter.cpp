@@ -12,6 +12,7 @@
 #include <errno.h>
 #include <filesystem>
 #include <random>
+//#include <GLFW/glfw3.h>
 
 
 
@@ -212,7 +213,7 @@ int main(int argc, char** argv)
 {
 
 	//--------------------Define initial values-------------------------
-	const int NODE_DETECTION_THRESHOLD = 5;
+	const int NODE_DETECTION_THRESHOLD = 6;
 	const int MAX_NODES = 1500;
 	//!END----------------Define initial values-------------------------
 
@@ -255,8 +256,6 @@ int main(int argc, char** argv)
 	cv::UMat inputU = black.getUMat(cv::ACCESS_RW);
 	cv::UMat outputU = black.getUMat(cv::ACCESS_RW);
 	cv::UMat delaunayU = black.getUMat(cv::ACCESS_RW);
-
-	//TODO generate a random number list with OpenGL
 
 	
     for (;;)

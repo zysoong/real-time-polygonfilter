@@ -2,3 +2,5 @@
 /.vs
 /.vscode
 /packages.config
+/packages
+/x64

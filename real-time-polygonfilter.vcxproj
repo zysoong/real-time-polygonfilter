@@ -20,13 +20,25 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\Filter.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="src\DelaunayTriangulation.cpp" />
+    <ClCompile Include="src\EdgeFilter.cpp" />
+    <ClCompile Include="src\NodeDetection.cpp" />
+    <ClCompile Include="src\NonMaxSuppression.cpp" />
+    <ClCompile Include="src\OpenclLoader.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="src\NonMaxSuppression.cl" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\DelaunayTriangulation.h" />
+    <ClInclude Include="include\EdgeFilter.h" />
+    <ClInclude Include="include\NodeDetection.h" />
+    <ClInclude Include="include\NonMaxSuppression.h" />
+    <ClInclude Include="include\OpenclLoader.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
